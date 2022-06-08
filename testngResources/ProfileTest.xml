@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite"> 
+	<groups>
+		<run>
+			<exclude name="Regression"/>
+		</run>
+	</groups> 	
+  <test name="ProfileTest">
+  		<parameter name="hobby" value="music"/>
+  		<parameter name="sports" value="cricket"/>
+      <classes>
+      	<class name="alg.com.testngexamples.ProfileTest"/>
+      </classes>
+  </test>
+</suite>
